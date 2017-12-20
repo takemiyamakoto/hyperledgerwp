@@ -1,14 +1,14 @@
-Hyperledger Iroha (\url{https://github.com/hyperledger/iroha}) joined Fabric and Sawtooth Lake to become the third distributed ledger platform under the Hyperledger umbrella in October, 2016. It was originally developed by Soramitsu in Japan and was proposed to Hyperledger by Soramitsu, Hitachi, NTT Data, and Colu.
+Hyperledger Iroha (\url{https://github.com/hyperledger/iroha}) joined Fabric and Sawtooth to become the third distributed ledger platform under the Hyperledger umbrella in October, 2016. It was originally developed by Soramitsu in Japan and was proposed to the Hyperledger Project by Soramitsu, Hitachi, NTT Data, and Colu.
 
-Hyperledger Iroha is designed to be simple and easy to incorporate into infrastructural projects requires distributed ledger technology. Iroha provides a modular design,  Hyperledger Iroha features a simple construction; modern, domain-driven C++ design, emphasis on mobile application development and a new, chain-based Byzantine Fault Tolerant consensus algorithm, called YAC.
-
- 
-Iroha takes a very different design philosophy from Fabric and Sawtooth Lake, adapting current best practices and providing features that are helpful for creating applications for end-users. The main features of Iroha are the following: 
+Hyperledger Iroha takes a very different design philosophy from Fabric and Sawtooth, focusing on building a highly performant and easy-to-use system that can be at the core of scalable, blockchain applications. Iroha aims to allow developers to quickly implement systems managing digital identities and digital assets. The main features of Iroha are the following:
 
 \begin{itemize}
-\item 
-Creation and management of custom complex assets, such as currencies or indivisible rights, serial numbers, patents, etc.
-\item Management of user accounts, building an hierarchical taxonomy based on domains(sub-ledgers).
-\item Validation of custom business rules and verification of user permissions for the execution of transactions and queries in the system.
-\item Fast query execution through command query separation. 
+\item A robust, role-based access control permission model, allowing accounts on the blockchain to be grouped into unix-style permission groups
+\item Creation and management (e.g., transfer, addition, subtraction) of value assets such as currencies, tokens, or other numerically definable assets
+\item Creation and management of arbitrary data assets, such as unique identifiers, personal information, serial numbers, patents, etc
+\item Management of user accounts, building a hierarchical taxonomy based on domains (sub-ledgers).
+\item Fast query execution through command query separation
+\item Robust SDKs for a variety of software platforms, including mobile apps; the emphasis on 
 \end{itemize} 
+
+Hyperledger Iroha was designed to be simple and easy to incorporate into software applications that require distributed ledger technology. Hyperledger Iroha provides a modular design and features a simple construction; modern, domain-driven C++ design, emphasis on mobile application development and a new, Byzantine Fault Tolerant consensus algorithm, called YAC.
